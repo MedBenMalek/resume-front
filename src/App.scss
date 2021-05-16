@@ -1,0 +1,25 @@
+@import './assets/variables.scss';
+
+.App {
+  font-family: $font;
+  margin: 3rem auto;
+  color: $white;
+  z-index: 1;
+  position: relative;
+  .background-circle-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -220px;
+    position: absolute;
+    z-index: 0;
+    .background-circle {
+      position: absolute;
+      width: 950px;
+      height: 560px;
+      border-radius: 50%;
+      background-color: $secondary;
+      z-index: 0;
+    }
+  }
+}

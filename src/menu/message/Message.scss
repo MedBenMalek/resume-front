@@ -1,0 +1,30 @@
+@import '../../assets/variables.scss';
+
+
+.messages-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  .messages {
+    color: $primary;
+    background-color: $white;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 4px 1rem;
+    min-width: 550px;
+    text-transform: uppercase;
+    z-index: 2;
+  }
+  .triangle {
+    height: 58px;
+    width: 60px;
+    z-index:1;
+    top: 0.7rem;
+    margin-right: 6rem;
+    object-fit: cover;
+    position: absolute;
+  }
+}
